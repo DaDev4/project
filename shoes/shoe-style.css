@@ -88,11 +88,12 @@ img {
 .button {
   text-align: center;
   user-select: none;
+  margin-bottom: 10vw;
 }
 
 button {
-  width: 50vw;
-  height: 2vw;
+  width: 70vw;
+  height: 4vw;
   margin: 1vw;
   font-size: 1.4vw;
   border-radius: 10vw;
