@@ -51,8 +51,7 @@ button:hover {
 }
 
 .product {
-  width: 15%;
-  height: 30vw;
+  width: 15%;  
   border: dashed #ffffff;
   border-width: 0.5vw;
   border-radius: 20%;
