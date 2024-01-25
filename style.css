@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1%;
+  font-size: 1.7vw;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.7vw;
+}
+
+.nav-ancor {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  user-select: none;
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+button {
+  width: 45%;
+  font-size: 1.5vw;
+  color: white;
+  background-color: #8f8f8f;
+  border-width: 0.25vw;
+  margin: 0.2vw;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #808080;
+}
+
+.product {
+  width: 15%;
+  height: 30vw;
+  border: dashed #ffffff;
+  border-width: 0.5vw;
+  border-radius: 20%;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  margin: 3%;
+
+  text-align: center;
+  user-select: none;
+
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+.product:hover {
+  border-color: black;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  margin: 0;
+  border-width: 0.1vw;
+}
+
+footer {
+  background-color: #333;
+  padding: 2%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  user-select: none;
+}
+
+h3 {
+  font-size: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  display: flex;
+  text-wrap: nowrap;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 2.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+h1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
