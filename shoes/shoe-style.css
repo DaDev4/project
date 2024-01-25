@@ -103,7 +103,7 @@ button {
   transition-duration: 0.2s;
 }
 button:hover {
-  background-color: #eeeeee;
+  background-color: #cccccc;
 }
 
 h2 {
